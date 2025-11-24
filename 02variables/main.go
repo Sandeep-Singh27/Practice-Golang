@@ -13,4 +13,32 @@ func main(){
 	var smallValue uint8 = 255
 	fmt.Println(smallValue)
 	fmt.Printf("variable is of type : %T\n\n", smallValue)
+
+	var smallFloat float32 = 255.4555553422424242
+	fmt.Println(smallFloat)
+	fmt.Printf("variable is of type: %T\n\n", smallFloat)
+
+	var bigFloat float64 = 255.4555553422424242
+	fmt.Println(bigFloat)
+	fmt.Printf("variable is of type: %T\n\n", bigFloat)
+
+	// default values and some aliases
+	var anotherVariable int
+	fmt.Println(anotherVariable)
+	fmt.Printf("variable is of type: %T\n\n", anotherVariable)
+
+	var anotherString string
+	fmt.Println(anotherString)
+	fmt.Printf("variable is of type: %T\n\n", anotherString)
+
+	//implicit type
+	var website = "google.com"
+	fmt.Println(website)
+	fmt.Printf("variable is of type: %T\n\n", website)
+
+	//no var style
+	numberOfUSer := 3000.0
+	fmt.Println(numberOfUSer)
+	fmt.Printf("variable is of type: %T\n\n", numberOfUSer)
+
 }
