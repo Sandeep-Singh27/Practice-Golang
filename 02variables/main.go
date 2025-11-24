@@ -1,6 +1,8 @@
 package main
 import "fmt"
 
+const LogingToken string = "ajfiojfwoj" //This is actually public since start with uppercase letter in variable name
+
 func main(){
 	var username string = "sandeep";
 	fmt.Println(username)
@@ -40,5 +42,8 @@ func main(){
 	numberOfUSer := 3000.0
 	fmt.Println(numberOfUSer)
 	fmt.Printf("variable is of type: %T\n\n", numberOfUSer)
+
+	fmt.Println(LogingToken)
+	fmt.Printf("variable is of type: %T\n\n", LogingToken)
 
 }
